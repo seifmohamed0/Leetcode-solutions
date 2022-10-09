@@ -1,6 +1,6 @@
 class Solution {
     public boolean isHappy(int n) {
-        int rep = 1000;
+        int rep = 100;
         long prv = n;
         while(rep > 0){
             --rep;
